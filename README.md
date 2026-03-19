@@ -1,4 +1,5 @@
-Simple change I was told to mak
+Simple change I was told to make
+change 2 i made
 ## NOTICE
 
 This repository contains the public FTC SDK for the DECODE (2025-2026) competition season.
