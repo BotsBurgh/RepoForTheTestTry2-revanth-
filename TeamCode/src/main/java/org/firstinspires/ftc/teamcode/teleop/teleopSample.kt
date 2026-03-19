@@ -9,7 +9,9 @@ import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit
 
 class teleopSample : OpMode() {
     override fun init() {
-
+        telemetry.addData("Sample", "sample")
     }
-    override fun loop() {}
+
+    override fun loop() {
+    }
 }
