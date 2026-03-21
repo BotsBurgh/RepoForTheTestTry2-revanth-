@@ -18,7 +18,8 @@ object sampleServoMotor : API() {
 
         sampleServo = this.opMode.hardwareMap.get(Servo::class.java, "sampleServo")
         sampleMotor = this.opMode.hardwareMap.get(DcMotorEx::class.java, "sampleMotor")
-
+        sampleMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER)
+        sampleMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER)
 
 
     }
