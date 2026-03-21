@@ -4,7 +4,7 @@
 
 package org.firstinspires.ftc.teamcode
 
-import com.acmerobotics.dashboard.config.Config
+//import com.acmerobotics.dashboard.config.Config
 import com.qualcomm.hardware.sparkfun.SparkFunOTOS
 import org.firstinspires.ftc.robotcore.external.Telemetry
 import org.firstinspires.ftc.robotcore.internal.system.AppUtil
@@ -35,7 +35,7 @@ object RobotConfig {
     override fun toString() = "RobotConfig(debug=$DEBUG)"
 
     /** Configuration related to the TeleOpMain opmode. */
-    @Config
+//    @Config
     object TeleOpMain {
         /** A multiplier that scales that robot's driving / strafing speed. */
         @JvmField
@@ -48,7 +48,7 @@ object RobotConfig {
     }
 
 
-    @Config
+//    @Config
     object Logging {
         /**
          * The root folder for all Botsburgh-specific files, accessible at `/sdcard/BotsBurgh` on
@@ -72,7 +72,7 @@ object RobotConfig {
     }
 
 
-    @Config
+//    @Config
     object OTOS {
 
         /**
@@ -154,7 +154,7 @@ object RobotConfig {
     }
 
 
-    @Config
+//    @Config
     object Turret {
 
         /**
@@ -192,7 +192,7 @@ object RobotConfig {
 
     }
 
-    @Config
+//    @Config
     object UniversalCoordinates{
         /**
          * Robot Constants
@@ -297,7 +297,7 @@ object RobotConfig {
         @JvmField
         var red_zone = doubleArrayOf(144.0, 0.0, 120.0, 24.0)
     }
-    @Config
+//    @Config
     object Deadwheels{
         /**
          * Diameter of the Encoder wheel in inches
